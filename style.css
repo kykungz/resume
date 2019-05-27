@@ -1,0 +1,130 @@
+html {
+  font-size: 6.6px;
+  line-height: 1.25;
+  color: #212121;
+}
+body {
+  font-family: 'Crimson Text', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: #212121;
+}
+i {
+  font-weight: 300;
+}
+
+.container {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  padding: 0 1rem;
+}
+
+.top-block {
+  margin: 0 auto 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 0.2rem solid #212121;
+}
+.top-block__name {
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 700;
+}
+.top-block__address {
+  font-size: 2rem;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.top-block__address-left {
+  text-align: left;
+}
+.top-block__address-right {
+  text-align: right;
+}
+
+.section {
+  /* border-top: 0.2rem solid #212121; */
+  padding-top: 0.5rem;
+  /* margin-bottom: 1rem; */
+}
+.section__label {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1.7rem;
+}
+.section__label span {
+  margin: 0 0.1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.experience__label {
+  margin-bottom: 0.5rem;
+}
+.experience__item {
+  margin-bottom: 0;
+}
+.experience__item:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.experience__date {
+  width: 17%;
+  min-height: 0.01rem;
+  float: left;
+  line-height: 2.75rem;
+}
+.experience__info {
+  float: left;
+  width: 83%;
+  margin-top: -0.2rem;
+}
+.experience__title {
+  margin-bottom: 0;
+}
+.experience__title:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.experience__title-text {
+  font-size: 2.2rem;
+  width: 75%;
+  float: left;
+  font-weight: 600;
+}
+.section-full .experience__title-text {
+  width: 100%;
+}
+.experience__title-location {
+  font-size: 1.6rem;
+  width: 25%;
+  float: left;
+  text-align: right;
+  line-height: 2.75rem;
+}
+.experience__text {
+  width: 85%;
+}
+.section-full .experience__text {
+  width: 100%;
+}
+.experience__text > p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.experience__text span {
+  text-decoration: underline;
+}
+.experience__text ul,
+.experience__text ol {
+  margin: 0 0 0.8rem;
+  list-style-position: outside;
+  padding-left: 5rem;
+}
