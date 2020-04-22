@@ -36,9 +36,12 @@ i {
 .top-block__address {
   font-size: 2rem;
   font-weight: 600;
-  display: grid;
+  display: block;
   grid-template-columns: 1fr 1fr;
   width: 100%;
+}
+.top-block__address-center {
+  text-align: center;
 }
 .top-block__address-left {
   text-align: left;
@@ -46,11 +49,15 @@ i {
 .top-block__address-right {
   text-align: right;
 }
+.top-block__address-spacer::after {
+  content: '|';
+  margin: 0 5px;
+}
 
 .section {
   /* border-top: 0.2rem solid #212121; */
   padding-top: 0.5rem;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 .section__label {
   text-transform: uppercase;
@@ -67,7 +74,6 @@ i {
   margin-bottom: 0.5rem;
 }
 .experience__item {
-  /* margin-bottom: 0; */
   margin-bottom: 2px;
 }
 .experience__item:after {
@@ -128,4 +134,8 @@ i {
   margin: 0 0 0.8rem;
   list-style-position: outside;
   padding-left: 5rem;
+}
+
+sup {
+  line-height: 0;
 }
