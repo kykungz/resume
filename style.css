@@ -71,10 +71,10 @@ i {
 }
 
 .experience__label {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 .experience__item {
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 .experience__item:after {
   content: '';
