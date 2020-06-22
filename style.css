@@ -3,14 +3,18 @@ html {
   line-height: 1.25;
   color: #212121;
 }
+
 body {
   font-family: 'Crimson Text', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 a {
   color: #212121;
+  text-decoration: none;
 }
+
 i {
   font-weight: 300;
 }
