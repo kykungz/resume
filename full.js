@@ -9,3 +9,9 @@ const full = {
 }
 
 render(full)
+
+const headers = document
+  .querySelectorAll('.header-data')
+  .forEach((headerEl) => {
+    headerEl.style.marginBottom = '2rem'
+  })
