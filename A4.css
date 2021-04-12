@@ -49,6 +49,6 @@ body {
 @media print {
   .page {
     margin: 0;
-    overflow: hidden;
+    box-shadow: none;
   }
 }
