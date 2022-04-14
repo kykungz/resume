@@ -8,16 +8,26 @@ export const education = {
 }
 
 export const experience = {
+  apeboard: {
+    date: 'Aug 2021 – Present',
+    title: 'Co-founder & Chief Technology Officer at Ape Board',
+    location: 'Bangkok, Thailand',
+    description: 'Industry-leading Multi-chain DeFi Dashboard.',
+    list: [
+      'Co-founded and grew an industry-leading multi-chain DeFi dashboard with over 2.4M users around the world in less than a year.',
+      "Setting up company's technology infrastructure, standard and roadmap.",
+    ],
+  },
   scb10x: {
-    date: 'Jun 2020 – Present',
+    date: 'Jun 2020 – Aug 2021',
     title: 'Software Engineer at SCB 10X',
     location: 'Bangkok, Thailand',
     description:
       'Subsidiary of Siam Commercial Bank (SCB), working under Venture Builder team.',
     list: [
-      'Techinal Lead of GoTripPass, subscription based hotel booking platform.',
-      'Lead frontend development of ApeBoard Finance, Cross-chain DeFi Dashboard with 5,000 Daily Active Users in 1 month.',
-      'Lead fullstack development of PartyHaan Seller Center, largest group buying marketplace in Thailand.',
+      'Techinal Lead of GoTripPass, subscription-based hotel booking platform.',
+      'Lead fullstack development of PartyHaan Seller Center, largest group-buying marketplace in Thailand.',
+      'Lead fullstack development of Mhao-mhao, Wholesale Ecommerce platform.',
     ],
   },
   cleverse: {
@@ -25,7 +35,7 @@ export const experience = {
     title: 'Software Engineer Intern & Part-time at Cleverse',
     location: 'Bangkok, Thailand',
     description:
-      'Venture Builder company which builds serveral tech companies in various industries.',
+      'Venture Building company which builds serveral tech companies in various industries.',
     list: [
       'Lead fullstack development of Web Application using React, GraphQL with Typescript.',
       'Lead development of Mobile App using React Native with users all over Thailand.',
@@ -37,7 +47,7 @@ export const experience = {
     title: 'Software Engineer Intern at OmniVirt',
     location: 'San Francisco, CA',
     description:
-      'Internship at Tech Startup company in Silicon Valley. Work remotely with international teams building immersive advertisement (3D, VR/AR, 360°) platform (acquired by Facebook).',
+      'Internship at Tech Startup company in Silicon Valley (acquired by Facebook). Work remotely with international team, building immersive advertisement (3D, VR/AR, 360°) platform.',
     list: [
       'Lead development of Live 3D Demo Conference system.',
       'Significantly improve user experiences and Search Engine Optimization.',
@@ -46,12 +56,12 @@ export const experience = {
   },
   nisitgen: {
     date: 'Jun 2018 – Aug 2019',
-    title: 'Co-founder and Chief Technology Officer at Nisit Gen',
+    title: 'Co-founder & Chief Technology Officer at Nisit Gen',
     location: 'Bangkok, Thailand',
     description:
       'Co-founded a company focusing on university student opportunities and self-improvements.',
     list: [
-      'Lead development of student privilege membership platform with traction over 100,000 in 3 months.',
+      'Lead development of student privilege membership platform with tractions over 100,000 users in 3 months.',
       'Using React and GatsbyJS on front-end.',
       'NodeJS on back-end with Cloud Firestore and Google Cloud Storage, deployed on Google App Engine.',
     ],
@@ -61,7 +71,7 @@ export const experience = {
     title: 'Software Engineer Intern at Wongnai Media Co., Ltd.',
     location: 'Bangkok, Thailand',
     description:
-      'Recruited by Wongnai Media, Yelp equivalent, largest restaurant reviews platform in Thailand.',
+      'Recruited by Wongnai Media largest restaurant reviews platform in Thailand.',
     list: [
       'Responsible for implementing trip reviewing platform. Increased site traffic and retention rate by 30%.',
       'Fullstack development using React/Redux and microservices with NodeJS/GraphQL as API Gateway.',
@@ -117,7 +127,7 @@ export const awards = {
     date: 'July 2017',
     title: 'Best Software Award eXceed Camp 14th',
     description:
-      'Created a smart IoT bottle which tracks water consumption behavior and give suggestions.',
+      'Created a smart IoT water bottle which tracks water consumption behavior and give suggestions.',
     list: ['Using jQuery on front-end and Arduino as sensors device.'],
   },
   localhackday: {
@@ -130,10 +140,16 @@ export const awards = {
 }
 
 export const extra = {
+  kuBlockchain: {
+    date: 'April 2022',
+    title: /* html */ `Guest Lecturer on <i>"Landscape of Blockchain/DeFi Industry"</i> at Kasetsart University`,
+    description:
+      'Invited to give lectures & workshops on Blockchain/DeFi at Kasetsart University.',
+  },
   msp: {
-    date: 'Aug 2019 - Present',
+    date: 'Aug 2019 - Aug 2020',
     title: 'Microsoft Student Partner',
-    description: 'Active member of Microsoft Student Partners program 2020.',
+    description: 'Active member of Microsoft Student Partners 2020 program.',
   },
   devsSpeak: {
     date: 'May 2020',
@@ -145,7 +161,7 @@ export const extra = {
     date: 'Jun 2018 - 2019',
     title: 'Board of Directors of Young Entrepreneur Assembly Hub',
     description:
-      'The largest youth entrepreneur association in Thailand, in partnership with 15 top universities.',
+      'Directed the largest young entrepreneur association in Thailand, in partnership with 15 top universities.',
   },
   uhack: {
     date: 'April 2019',
