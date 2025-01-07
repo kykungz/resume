@@ -1,17 +1,18 @@
-import { awards, education, experience, extra } from './data.js'
+import { awards, education, experience, extra, speaker } from './data.js'
 import { render } from './render.js'
 
-const full = {
+const short = {
   education: [education.ku],
-  experience: [
-    experience.apeboard,
-    experience.scb10x,
-    experience.cleverse,
-    experience.omnivirt,
-    experience.wongnai,
+  experience: [experience.nansen, experience.apeboard, experience.scb10x],
+  speaker: [
+    speaker.riseRethink,
+    speaker.blockchainThailand,
+    speaker.thaiProgrammer,
+    speaker.kuBlockchain,
+    speaker.devsSpeak,
   ],
   awards: [awards.thairath, awards.siriventure, awards.tesco, awards.ywc],
-  extra: [extra.kuBlockchain, extra.msp, extra.devsSpeak, extra.firebase],
+  extra: [extra.msp, extra.yeah],
 }
 
-render(full)
+render(short)

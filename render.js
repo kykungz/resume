@@ -3,6 +3,7 @@ export const render = (data) => {
   const educationEl = document.getElementById('education-data')
   const experienceEl = document.getElementById('experience-data')
   const awardsEl = document.getElementById('awards-data')
+  const speakerEl = document.getElementById('speaker-data')
   const extraEl = document.getElementById('extra-data')
 
   const createItem = ({ date, title, location, description, list }) => {
@@ -46,8 +47,10 @@ export const render = (data) => {
             <a href="mailto:jackykongpon@gmail.com">jackykongpon@gmail.com</a>
           </div>
           <div class="top-block__address-center">
-            <a href="https://kykungz.github.io" target="__blank">kykungz.github.io</a>
-            <span class="top-block__address-spacer"></span>
+            <!--
+              <a href="https://kykungz.github.io" target="__blank">kykungz.github.io</a>
+              <span class="top-block__address-spacer"></span>
+            -->
             <a href="https://github.com/kykungz" target="__blank">github.com/kykungz</a>
             <span class="top-block__address-spacer"></span>
             <a href="https://linkedin.com/in/kykungz" target="__blank">linkedin.com/in/kykungz</a>
@@ -64,5 +67,6 @@ export const render = (data) => {
   educationEl.innerHTML = data.education.map(createItem).join('')
   experienceEl.innerHTML = data.experience.map(createItem).join('')
   awardsEl.innerHTML = data.awards.map(createItem).join('')
+  speakerEl.innerHTML = data.speaker.map(createItem).join('')
   extraEl.innerHTML = data.extra.map(createItem).join('')
 }

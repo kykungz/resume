@@ -27,9 +27,8 @@ i {
 }
 
 .top-block {
-  margin: 0 auto 1rem;
+  margin: 0 auto 2rem;
   padding-bottom: 1rem;
-  margin-bottom: 0.5rem;
   border-bottom: 0.2rem solid #212121;
 }
 .top-block__name {
