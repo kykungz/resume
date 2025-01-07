@@ -105,7 +105,7 @@ export const experience = {
 export const speaker = {
   riseRethink: {
     date: 'Jan 2023',
-    title: /* html */ `Guest Speaker: <i>"Successes, Failures, and Lessons Learned from Venture Building"</i> at RETHINK 2023`,
+    title: /* html */ `Guest Speaker: <i>"Successes, Failures, and Lessons Learned from Venture Building"</i> at RISE RETHINK 2023`,
     description:
       'Discussed venture-building experiences, including successes, failures, and key lessons learned in the Web3 space.',
   },
